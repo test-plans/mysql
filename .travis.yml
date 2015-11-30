@@ -1,6 +1,7 @@
-sudo: false
+#sudo: false
 
 language: go
+
 
 services:
   - mysql
@@ -25,3 +26,7 @@ notifications:
    channels:  
     - "chat.freenode.net#test-irc"
     - "chat.freenode.net#testing2"
+
+cache: true
+
+archive:true
